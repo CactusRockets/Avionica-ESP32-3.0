@@ -84,6 +84,7 @@
 <hole x="2" y="51" drill="3"/>
 <hole x="47" y="0" drill="3"/>
 <hole x="2" y="0" drill="3"/>
+<dimension x1="51.8" y1="-1.6" x2="51.8" y2="1.4" x3="53.6" y3="-0.1" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="transistor-fet" urn="urn:adsk.eagle:library:396">

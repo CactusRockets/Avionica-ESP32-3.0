@@ -199,7 +199,7 @@
 <connect gate="G$1" pin="GND1" pad="28"/>
 <connect gate="G$1" pin="IO1" pad="13"/>
 <connect gate="G$1" pin="IO12" pad="27"/>
-<connect gate="G$1" pin="IO13" pad="28"/>
+<connect gate="G$1" pin="IO13" pad="29"/>
 <connect gate="G$1" pin="IO14" pad="26"/>
 <connect gate="G$1" pin="IO15" pad="3"/>
 <connect gate="G$1" pin="IO16" pad="6"/>
@@ -211,7 +211,7 @@
 <connect gate="G$1" pin="IO22" pad="14"/>
 <connect gate="G$1" pin="IO23" pad="15"/>
 <connect gate="G$1" pin="IO25" pad="23"/>
-<connect gate="G$1" pin="IO26" pad="24"/>
+<connect gate="G$1" pin="IO26" pad="25"/>
 <connect gate="G$1" pin="IO27" pad="24"/>
 <connect gate="G$1" pin="IO3" pad="12"/>
 <connect gate="G$1" pin="IO32" pad="21"/>
@@ -235,28 +235,28 @@
 <library name="CRD" urn="urn:adsk.eagle:library:39051337">
 <description>Componentes utilizados na Cactus Rockets Design</description>
 <packages>
-<package name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965097/2" library_version="30">
-<wire x1="-17.78" y1="-10.16" x2="18.288" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-17.78" y1="10.922" x2="-17.78" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="17.653" y1="-2.159" x2="29.083" y2="-2.159" width="0.127" layer="21"/>
-<wire x1="17.653" y1="-8.509" x2="17.653" y2="-2.159" width="0.127" layer="21"/>
-<wire x1="15.113" y1="-3.429" x2="18.923" y2="-3.429" width="0.127" layer="21"/>
-<wire x1="18.923" y1="-5.334" x2="15.113" y2="-5.334" width="0.127" layer="21"/>
-<wire x1="18.923" y1="-7.239" x2="15.113" y2="-7.239" width="0.127" layer="21"/>
-<wire x1="18.288" y1="-10.16" x2="18.288" y2="10.922" width="0.127" layer="21"/>
-<wire x1="-17.78" y1="10.922" x2="18.288" y2="10.922" width="0.127" layer="21"/>
-<wire x1="17.653" y1="-8.509" x2="29.083" y2="-8.509" width="0.127" layer="21"/>
-<wire x1="29.083" y1="-8.509" x2="29.083" y2="-2.159" width="0.127" layer="21"/>
-<pad name="TXD" x="-16.383" y="0.508" drill="1" shape="square"/>
-<pad name="RXD" x="-16.383" y="3.048" drill="1" shape="square"/>
-<pad name="M1" x="-16.383" y="5.588" drill="1" shape="square"/>
-<pad name="M0" x="-16.383" y="8.128" drill="1" shape="square"/>
-<pad name="AUX" x="-16.383" y="-2.032" drill="1" shape="square"/>
-<pad name="VCC" x="-16.383" y="-4.572" drill="1" shape="square"/>
-<pad name="GND" x="-16.383" y="-7.112" drill="1" shape="square"/>
-<text x="-7.62" y="2.54" size="1.27" layer="21">E22-400T30D (LoRa)</text>
+<package name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965097/3" library_version="31">
+<wire x1="-17.78" y1="13.462" x2="-17.78" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="22.733" y1="-2.159" x2="34.163" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="22.733" y1="-8.509" x2="22.733" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="20.193" y1="-3.429" x2="24.003" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="24.003" y1="-5.334" x2="20.193" y2="-5.334" width="0.127" layer="21"/>
+<wire x1="24.003" y1="-7.239" x2="20.193" y2="-7.239" width="0.127" layer="21"/>
+<wire x1="22.733" y1="-8.509" x2="34.163" y2="-8.509" width="0.127" layer="21"/>
+<wire x1="34.163" y1="-8.509" x2="34.163" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-10.16" x2="25.4" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="13.462" x2="25.4" y2="13.462" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-10.16" x2="25.4" y2="13.462" width="0.127" layer="21"/>
+<pad name="TXD" x="-16.383" y="1.778" drill="1" shape="square"/>
+<pad name="RXD" x="-16.383" y="4.318" drill="1" shape="square"/>
+<pad name="M1" x="-16.383" y="6.858" drill="1" shape="square"/>
+<pad name="M0" x="-16.383" y="9.398" drill="1" shape="square"/>
+<pad name="AUX" x="-16.383" y="-0.762" drill="1" shape="square"/>
+<pad name="VCC" x="-16.383" y="-3.302" drill="1" shape="square"/>
+<pad name="GND" x="-16.383" y="-5.842" drill="1" shape="square"/>
+<text x="-5.08" y="2.54" size="1.27" layer="21">E22-400T30D (LoRa)</text>
 </package>
-<package name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:footprint:39608398/3" locally_modified="yes" library_version="30" library_locally_modified="yes">
+<package name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:footprint:39608398/4" library_version="31">
 <wire x1="-12.7" y1="-17.78" x2="12.3" y2="-17.78" width="0.127" layer="21"/>
 <wire x1="12.3" y1="-17.78" x2="12.3" y2="17.22" width="0.127" layer="21"/>
 <wire x1="12.3" y1="17.22" x2="-12.7" y2="17.22" width="0.127" layer="21"/>
@@ -267,31 +267,26 @@
 <pad name="RX" x="1.07" y="-16.51" drill="0.9"/>
 <pad name="VCC" x="3.61" y="-16.51" drill="0.9"/>
 </package>
-<package name="GPS_ANTENNA_FOOTPRINT" urn="urn:adsk.eagle:footprint:39608526/1" library_version="26" library_locally_modified="yes">
-<wire x1="-12.7" y1="-19.05" x2="-12.7" y2="5.95" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="5.95" x2="12.3" y2="5.95" width="0.127" layer="21"/>
-<wire x1="12.3" y1="5.95" x2="12.3" y2="-19.05" width="0.127" layer="21"/>
-<wire x1="12.3" y1="-19.05" x2="-12.7" y2="-19.05" width="0.127" layer="21"/>
-<text x="-5.588" y="3.175" size="1.27" layer="21">GPS antenna</text>
+<package name="BMP390_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965120/4" library_version="31">
+<text x="-3.048" y="-4.445" size="1.27" layer="21">BMP390</text>
+<pad name="GND" x="-3.429" y="-8.382" drill="0.9"/>
+<pad name="3V0" x="-5.969" y="-8.382" drill="0.9"/>
+<pad name="SCL" x="-0.889" y="-8.382" drill="0.9"/>
+<pad name="SDO" x="1.651" y="-8.382" drill="0.9"/>
+<pad name="SDA" x="4.191" y="-8.382" drill="0.9"/>
+<pad name="CS" x="6.731" y="-8.382" drill="0.9"/>
+<pad name="INT" x="9.271" y="-8.382" drill="0.9"/>
+<pad name="VIN" x="-8.509" y="-8.382" drill="0.9"/>
+<wire x1="-11.684" y1="-10.287" x2="12.446" y2="-10.287" width="0.127" layer="21"/>
+<wire x1="-11.684" y1="-10.287" x2="-12.192" y2="-10.287" width="0.127" layer="22"/>
+<wire x1="-12.192" y1="-10.287" x2="-12.192" y2="8.636" width="0.127" layer="22"/>
+<wire x1="12.446" y1="-10.287" x2="12.954" y2="-10.287" width="0.127" layer="22"/>
+<wire x1="12.954" y1="-10.287" x2="12.954" y2="8.636" width="0.127" layer="22"/>
+<wire x1="-12.192" y1="8.636" x2="12.954" y2="8.636" width="0.127" layer="22"/>
+<circle x="-9.144" y="5.588" radius="1.79605" width="0.127" layer="21"/>
+<circle x="9.779" y="5.588" radius="1.79605" width="0.127" layer="21"/>
 </package>
-<package name="BMP390_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965120/3" library_version="30">
-<text x="-3.175" y="-2.54" size="1.27" layer="21">BMP390</text>
-<pad name="GND" x="-3.556" y="-6.477" drill="0.9"/>
-<pad name="3V0" x="-6.096" y="-6.477" drill="0.9"/>
-<pad name="SCL" x="-1.016" y="-6.477" drill="0.9"/>
-<pad name="SDO" x="1.524" y="-6.477" drill="0.9"/>
-<pad name="SDA" x="4.064" y="-6.477" drill="0.9"/>
-<pad name="CS" x="6.604" y="-6.477" drill="0.9"/>
-<pad name="INT" x="9.144" y="-6.477" drill="0.9"/>
-<pad name="VIN" x="-8.636" y="-6.477" drill="0.9"/>
-<wire x1="12.319" y1="6.223" x2="-11.811" y2="6.223" width="0.127" layer="21"/>
-<wire x1="-11.811" y1="6.223" x2="-11.811" y2="-8.382" width="0.127" layer="21"/>
-<wire x1="12.319" y1="-8.382" x2="12.319" y2="6.223" width="0.127" layer="21"/>
-<wire x1="-11.811" y1="-8.382" x2="12.319" y2="-8.382" width="0.127" layer="21"/>
-<circle x="-9.271" y="3.683" radius="1.79605" width="0.127" layer="21"/>
-<circle x="9.779" y="3.683" radius="1.79605" width="0.127" layer="21"/>
-</package>
-<package name="MPU9250_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965121/3" locally_modified="yes" library_version="30" library_locally_modified="yes">
+<package name="MPU9250_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965121/4" library_version="31">
 <wire x1="-12.7" y1="-7.62" x2="12.3" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="12.3" y1="7.38" x2="-12.7" y2="7.38" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="7.38" x2="-12.7" y2="-7.62" width="0.127" layer="21"/>
@@ -366,27 +361,22 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:package:40965099/2" type="box" library_version="30">
+<package3d name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:package:40965099/3" type="box" library_version="31">
 <packageinstances>
 <packageinstance name="E22-400T30D_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:package:39608400/3" type="box" library_version="30" library_locally_modified="yes">
+<package3d name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:package:39608400/4" type="box" library_version="31">
 <packageinstances>
 <packageinstance name="GPS_MODULE_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="GPS_ANTENNA_FOOTPRINT" urn="urn:adsk.eagle:package:39608528/1" type="empty" library_version="26" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="GPS_ANTENNA_FOOTPRINT"/>
-</packageinstances>
-</package3d>
-<package3d name="BMP390_FOOTPRINT" urn="urn:adsk.eagle:package:40965124/3" type="box" library_version="30">
+<package3d name="BMP390_FOOTPRINT" urn="urn:adsk.eagle:package:40965124/4" type="box" library_version="31">
 <packageinstances>
 <packageinstance name="BMP390_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="MPU9250_FOOTPRINT" urn="urn:adsk.eagle:package:40965125/3" type="box" library_version="30" library_locally_modified="yes">
+<package3d name="MPU9250_FOOTPRINT" urn="urn:adsk.eagle:package:40965125/4" type="box" library_version="31">
 <packageinstances>
 <packageinstance name="MPU9250_FOOTPRINT"/>
 </packageinstances>
@@ -435,13 +425,6 @@
 <wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="10.16" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
 <text x="-6.604" y="7.366" size="1.778" layer="94">GPS module</text>
-</symbol>
-<symbol name="GPS_ANTENNA_SYMBOL" urn="urn:adsk.eagle:symbol:39608527/1" library_version="26" library_locally_modified="yes">
-<wire x1="-15.24" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
-<text x="-7.62" y="11.43" size="1.9304" layer="94">GPS antenna</text>
 </symbol>
 <symbol name="BMP390_SYMBOL" urn="urn:adsk.eagle:symbol:40965122/2" library_version="28">
 <pin name="3V0" x="-12.7" y="-15.24" length="middle" rot="R90"/>
@@ -519,7 +502,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="E22-400T30D" urn="urn:adsk.eagle:component:40965100/3" library_version="30">
+<deviceset name="E22-400T30D" urn="urn:adsk.eagle:component:40965100/4" library_version="31">
 <gates>
 <gate name="G$1" symbol="E22-400T30D_SYMBOL" x="-2.54" y="2.54"/>
 </gates>
@@ -535,7 +518,7 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40965099/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40965099/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -543,7 +526,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GPS_MODULE" urn="urn:adsk.eagle:component:39608401/4" library_version="30" library_locally_modified="yes">
+<deviceset name="GPS_MODULE" urn="urn:adsk.eagle:component:39608401/5" library_version="31">
 <gates>
 <gate name="G$1" symbol="GPS_MODULE_SYMBOL" x="0" y="5.08"/>
 </gates>
@@ -556,7 +539,7 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39608400/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39608400/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -564,22 +547,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GPS_ANTENNA" urn="urn:adsk.eagle:component:39608529/1" library_version="26" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="GPS_ANTENNA_SYMBOL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="GPS_ANTENNA_FOOTPRINT">
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39608528/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BMP390" urn="urn:adsk.eagle:component:40965126/3" library_version="30">
+<deviceset name="BMP390" urn="urn:adsk.eagle:component:40965126/4" library_version="31">
 <description>Sensor barométrico</description>
 <gates>
 <gate name="G$1" symbol="BMP390_SYMBOL" x="-25.4" y="-33.02"/>
@@ -597,7 +565,7 @@
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40965124/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40965124/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -605,7 +573,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU9250" urn="urn:adsk.eagle:component:40965127/3" library_version="30" library_locally_modified="yes">
+<deviceset name="MPU9250" urn="urn:adsk.eagle:component:40965127/4" library_version="31">
 <description>Acelerômetro e Giroscópio</description>
 <gates>
 <gate name="G$1" symbol="MPU9250_SYMBOL" x="-43.18" y="-35.56"/>
@@ -625,7 +593,7 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40965125/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40965125/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5269,11 +5237,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </classes>
 <parts>
 <part name="U$1" library="ESP32-DEVKITV1" deviceset="ESP32DEVKITV1" device=""/>
-<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="E22-400T30D" device="" package3d_urn="urn:adsk.eagle:package:40965099/2"/>
-<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_MODULE" device="" package3d_urn="urn:adsk.eagle:package:39608400/3"/>
-<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_ANTENNA" device="" package3d_urn="urn:adsk.eagle:package:39608528/1"/>
-<part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP390" device="V1" package3d_urn="urn:adsk.eagle:package:40965124/3"/>
-<part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MPU9250" device="V1" package3d_urn="urn:adsk.eagle:package:40965125/3"/>
+<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="E22-400T30D" device="" package3d_urn="urn:adsk.eagle:package:40965099/3"/>
+<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_MODULE" device="" package3d_urn="urn:adsk.eagle:package:39608400/4"/>
+<part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP390" device="V1" package3d_urn="urn:adsk.eagle:package:40965124/4"/>
+<part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MPU9250" device="V1" package3d_urn="urn:adsk.eagle:package:40965125/4"/>
 <part name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MICROSD_READER" device="" package3d_urn="urn:adsk.eagle:package:39051340/7"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5316,7 +5283,6 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </instance>
 <instance part="U$2" gate="G$1" x="99.06" y="-20.32" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="-55.88" y="66.04" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="-55.88" y="96.52" smashed="yes"/>
 <instance part="U$5" gate="G$1" x="53.34" y="60.96" smashed="yes"/>
 <instance part="U$6" gate="G$1" x="-2.54" y="63.5" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="91.44" y="-60.96" smashed="yes" rot="MR90"/>
@@ -5429,6 +5395,11 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <wire x1="175.26" y1="27.94" x2="175.26" y2="20.071934375" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="172.83905625" y1="20.071934375" x2="175.26" y2="20.071934375" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="1"/>
+<wire x1="167.64" y1="-22.86" x2="167.64" y2="-25.4" width="0.1524" layer="91"/>
+<label x="167.64" y="-33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="V_IN" class="0">
@@ -5553,11 +5524,6 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <label x="35.56" y="30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="-22.86" x2="193.04" y2="-25.4" width="0.1524" layer="91"/>
-<label x="193.04" y="-30.48" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="U$10" gate="G$1" pin="3"/>
 <wire x1="185.42" y1="27.94" x2="185.42" y2="20.32" width="0.1524" layer="91"/>
 <label x="185.42" y="15.24" size="1.778" layer="95" rot="R90"/>
@@ -5633,38 +5599,38 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </net>
 <net name="SKIB1" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="-22.86" x2="167.64" y2="-25.4" width="0.1524" layer="91"/>
-<label x="167.64" y="-33.02" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="IO13"/>
 <wire x1="-48.26" y1="-58.42" x2="-53.34" y2="-58.42" width="0.1524" layer="91"/>
 <label x="-58.42" y="-58.42" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="SKIB2" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="-22.86" x2="172.72" y2="-25.4" width="0.1524" layer="91"/>
 <label x="172.72" y="-33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
+</net>
+<net name="SKIB2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="IO12"/>
 <wire x1="-48.26" y1="-55.88" x2="-53.34" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-58.42" y="-55.88" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="BUZZER" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="-22.86" x2="187.96" y2="-25.4" width="0.1524" layer="91"/>
 <label x="187.96" y="-33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
+</net>
+<net name="BUZZER" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="IO14"/>
 <wire x1="-48.26" y1="-53.34" x2="-53.34" y2="-53.34" width="0.1524" layer="91"/>
 <label x="-58.42" y="-53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="-22.86" x2="193.04" y2="-25.4" width="0.1524" layer="91"/>
+<label x="193.04" y="-33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$4" class="0">
