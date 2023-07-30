@@ -72,7 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:eC2E5IMDRm2aw-eJDvErbw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d5523bd2-7437-4db2-b767-71d2d1ac56fe" lastsyncedrevisionid="d5523bd2-7437-4db2-b767-71d2d1ac56fe" lastboardhashguid="33d128af-a64a-b0db-033b-a1b71b82984a" lastpushedtime="2023-05-09T12:36:54Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:eC2E5IMDRm2aw-eJDvErbw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d5523bd2-7437-4db2-b767-71d2d1ac56fe" lastsyncedrevisionid="d5523bd2-7437-4db2-b767-71d2d1ac56fe" lastboardhashguid="33d128af-a64a-b0db-033b-a1b71b82984a" lastpushedtime="2023-05-09T12:36:54Z" linktopcb3d="true"/>
 <plain>
 <wire x1="50.5" y1="-3" x2="-1" y2="-3" width="0" layer="20"/>
 <wire x1="-1" y1="-3" x2="-1" y2="54" width="0" layer="20"/>
@@ -617,14 +617,12 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="3" x="14" y="44" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.175" y="40.19" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="41.5" y="4.4" smashed="yes"/>
-<element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="32.4" y="4.4" smashed="yes"/>
+<element name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="32.4" y="4.5" smashed="yes"/>
+<element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="41.5" y="4.5" smashed="yes"/>
 </elements>
 <signals>
 <signal name="BUZZER">
 <contactref element="Q3" pad="1"/>
-<wire x1="39.4" y1="-0.5" x2="42.7" y2="2.8" width="1" layer="16"/>
-<wire x1="39.4" y1="-0.5" x2="23.5" y2="-0.5" width="1" layer="16"/>
 <wire x1="21" y1="2" x2="21" y2="8" width="1" layer="16"/>
 <wire x1="21" y1="8" x2="17.0264" y2="11.9736" width="1" layer="16"/>
 <wire x1="13.2385875" y1="11.9736" x2="13.2121875" y2="12" width="1" layer="16"/>
@@ -632,9 +630,12 @@ design rules under a new name.</description>
 <wire x1="17.0264" y1="11.9736" x2="13.2385875" y2="11.9736" width="1" layer="16"/>
 <wire x1="13" y1="12" x2="11.46" y2="13.54" width="1" layer="16"/>
 <wire x1="11.46" y1="13.54" x2="11.46" y2="14.65" width="1" layer="16"/>
-<wire x1="23.5" y1="-0.5" x2="21" y2="2" width="1" layer="16"/>
-<contactref element="U$2" pad="2"/>
-<wire x1="42.7" y1="2.8" x2="33.67" y2="4.4" width="0" layer="19" extent="16-16"/>
+<wire x1="21" y1="2" x2="23.5" y2="-0.5" width="1" layer="16"/>
+<contactref element="U$1" pad="2"/>
+<wire x1="23.5" y1="-0.5" x2="31.9" y2="-0.5" width="1" layer="16"/>
+<wire x1="31.9" y1="-0.5" x2="33.67" y2="1.27" width="1" layer="16"/>
+<wire x1="33.67" y1="1.27" x2="33.67" y2="4.284" width="1" layer="16"/>
+<wire x1="33.67" y1="4.284" x2="33.67" y2="4.5" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
 <contactref element="Q1" pad="3"/>
@@ -647,8 +648,6 @@ design rules under a new name.</description>
 <vertex x="0" y="-2"/>
 <vertex x="0" y="53"/>
 </polygon>
-<contactref element="U$1" pad="1"/>
-<wire x1="40.23" y1="4.4" x2="42.55" y2="14.72" width="0" layer="19" extent="1-1"/>
 <wire x1="29.15" y1="14.72" x2="42.55" y2="14.72" width="0" layer="19" extent="1-1"/>
 <wire x1="16.54" y1="14.65" x2="29.15" y2="14.72" width="0" layer="19" extent="1-1"/>
 <wire x1="11.5254" y1="4.84" x2="16.54" y2="14.65" width="0" layer="19" extent="1-1"/>
@@ -659,10 +658,10 @@ design rules under a new name.</description>
 <wire x1="25" y1="10" x2="24" y2="11" width="1" layer="16"/>
 <wire x1="24" y1="11" x2="24" y2="14.65" width="1" layer="16"/>
 <wire x1="24" y1="14.65" x2="24.07" y2="14.72" width="1" layer="16"/>
-<wire x1="30" y1="10" x2="32.17" y2="7.83" width="1.016" layer="16"/>
-<wire x1="32.17" y1="7.83" x2="33.7" y2="6.3" width="1" layer="16"/>
-<contactref element="U$1" pad="2"/>
-<wire x1="33.7" y1="6.3" x2="42.77" y2="4.4" width="0" layer="19" extent="16-16"/>
+<contactref element="U$2" pad="1"/>
+<wire x1="30" y1="10" x2="34.2" y2="10" width="1" layer="16"/>
+<wire x1="39.7" y1="4.5" x2="40.23" y2="4.5" width="1" layer="16"/>
+<wire x1="34.2" y1="10" x2="39.7" y2="4.5" width="1" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="BATERIA" pad="1"/>
@@ -687,10 +686,9 @@ design rules under a new name.</description>
 <signal name="SKIB2">
 <contactref element="Q2" pad="1"/>
 <wire x1="37.47" y1="14.72" x2="37.47" y2="10.53" width="1" layer="16"/>
-<wire x1="40.2" y1="7.8" x2="40.2" y2="6" width="1" layer="16"/>
-<wire x1="37.47" y1="10.53" x2="40.2" y2="7.8" width="1" layer="16"/>
-<contactref element="U$2" pad="1"/>
-<wire x1="31.13" y1="4.4" x2="40.2" y2="6" width="0" layer="19" extent="16-16"/>
+<contactref element="U$2" pad="2"/>
+<wire x1="42.77" y1="5.23" x2="42.77" y2="4.5" width="1" layer="16"/>
+<wire x1="37.47" y1="10.53" x2="42.77" y2="5.23" width="1" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q3" pad="2"/>
@@ -727,6 +725,9 @@ design rules under a new name.</description>
 <vertex x="44.4" y="36.3"/>
 <vertex x="44.4" y="36.1"/>
 </polygon>
+</signal>
+<signal name="3V3">
+<contactref element="U$1" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

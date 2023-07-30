@@ -685,9 +685,9 @@ by R. Vogg  15.March.2002</description>
 <pinref part="Q3" gate="G$1" pin="G"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="-2.54" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
-<label x="27.94" y="-12.7" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="38.1" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
+<label x="22.86" y="22.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -712,11 +712,6 @@ by R. Vogg  15.March.2002</description>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="68.58" y1="7.62" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="38.1" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
-<label x="22.86" y="22.86" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="SKIB1" class="0">
 <segment>
@@ -725,9 +720,9 @@ by R. Vogg  15.March.2002</description>
 <label x="91.44" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="38.1" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="27.94" y="22.86" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="-2.54" x2="22.86" y2="-12.7" width="0.1524" layer="91"/>
+<label x="22.86" y="-12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -768,9 +763,9 @@ by R. Vogg  15.March.2002</description>
 <label x="91.44" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="-2.54" x2="22.86" y2="-12.7" width="0.1524" layer="91"/>
-<label x="22.86" y="-12.7" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="-2.54" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
+<label x="27.94" y="-12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -802,11 +797,18 @@ by R. Vogg  15.March.2002</description>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
+<net name="3V3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="38.1" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<label x="27.94" y="22.86" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,-17.78,38.1,3.3V,,,,,"/>
+<approved hash="106,1,27.94,38.1,3V3,,,,,"/>
 <approved hash="113,1,-10.2052,60.96,BATERIA,,,,,"/>
 <approved hash="113,1,110.545,63.5,SKIB1,,,,,"/>
 <approved hash="113,1,110.545,7.62,SKIB2,,,,,"/>

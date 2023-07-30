@@ -1848,14 +1848,12 @@ design rules under a new name.</description>
 <wire x1="35.7878125" y1="12" x2="36" y2="12" width="1" layer="16"/>
 <wire x1="36" y1="12" x2="37.54" y2="13.54" width="1" layer="16"/>
 <wire x1="37.54" y1="13.54" x2="37.54" y2="14.65" width="1" layer="16"/>
-<wire x1="20.648" y1="7.62" x2="22.86" y2="7.62" width="1" layer="16"/>
-<wire x1="22.86" y1="7.62" x2="26.67" y2="7.62" width="1" layer="16"/>
-<wire x1="26.67" y1="7.62" x2="31.0236" y2="11.9736" width="1" layer="16"/>
+<wire x1="20.32" y1="6.35" x2="25.4" y2="6.35" width="1" layer="16"/>
+<wire x1="25.4" y1="6.35" x2="31.0236" y2="11.9736" width="1" layer="16"/>
 <wire x1="31.0236" y1="11.9736" x2="35.7614125" y2="11.9736" width="1" layer="16"/>
 <contactref element="U$1" pad="1"/>
-<wire x1="18.288" y1="3.81" x2="18.288" y2="5.588" width="1" layer="16"/>
-<wire x1="18.288" y1="5.588" x2="20.32" y2="7.62" width="1" layer="16"/>
-<wire x1="20.32" y1="7.62" x2="20.648" y2="7.62" width="1" layer="16"/>
+<wire x1="18.288" y1="3.81" x2="18.288" y2="4.318" width="1" layer="16"/>
+<wire x1="18.288" y1="4.318" x2="20.32" y2="6.35" width="1" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="Q1" pad="3"/>
@@ -1873,7 +1871,6 @@ design rules under a new name.</description>
 <contactref element="LED2" pad="K"/>
 <contactref element="OK2" pad="2"/>
 <wire x1="32.46" y1="14.65" x2="19.85" y2="14.72" width="0" layer="19" extent="1-1"/>
-<wire x1="37.4746" y1="4.84" x2="32.46" y2="14.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SKIB1">
 <contactref element="Q1" pad="1"/>
@@ -1899,10 +1896,10 @@ design rules under a new name.</description>
 <wire x1="28.7046" y1="49" x2="24.9046" y2="45.2" width="1" layer="16"/>
 <wire x1="32.286" y1="49" x2="28.7046" y2="49" width="1" layer="16"/>
 <wire x1="32.4454" y1="4.84" x2="32.4454" y2="7.4454" width="1" layer="16"/>
-<wire x1="34.4" y1="9.4" x2="39.1" y2="9.4" width="1" layer="16"/>
-<wire x1="32.4454" y1="7.4454" x2="34.4" y2="9.4" width="1" layer="16"/>
+<wire x1="33.13" y1="8.13" x2="37.83" y2="8.13" width="1" layer="16"/>
+<wire x1="32.4454" y1="7.4454" x2="33.13" y2="8.13" width="1" layer="16"/>
 <wire x1="41.543" y1="11.8" x2="41.543" y2="41.743" width="1" layer="16"/>
-<wire x1="39.1" y1="9.4" x2="41.5" y2="11.8" width="1" layer="16"/>
+<wire x1="37.83" y1="8.13" x2="41.5" y2="11.8" width="1" layer="16"/>
 <wire x1="41.5" y1="11.8" x2="41.543" y2="11.8" width="1" layer="16"/>
 </signal>
 <signal name="SKIB2">
