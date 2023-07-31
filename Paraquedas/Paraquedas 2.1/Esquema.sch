@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7225,16 +7225,16 @@ Source: www.kingbright.com</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
+<part name="GND" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="5mm"/>
+<part name="LSKIB1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="5mm"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="5mm"/>
+<part name="LSKIB2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="5mm"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
@@ -7324,7 +7324,7 @@ Source: www.kingbright.com</description>
 <instance part="GND4" gate="1" x="53.34" y="-76.2" smashed="yes">
 <attribute name="VALUE" x="50.8" y="-78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="OK1" gate="A" x="137.16" y="40.64" smashed="yes">
+<instance part="GND" gate="A" x="137.16" y="40.64" smashed="yes">
 <attribute name="NAME" x="130.175" y="46.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="130.175" y="33.02" size="1.778" layer="96"/>
 </instance>
@@ -7336,7 +7336,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="103.0986" y="36.83" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="98.298" y="36.83" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="LED1" gate="G$1" x="106.68" y="22.86" smashed="yes" rot="R90">
+<instance part="LSKIB1" gate="G$1" x="106.68" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.252" y="26.416" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="111.252" y="28.575" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7358,7 +7358,7 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="103.0986" y="-6.35" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="98.298" y="-6.35" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="LED2" gate="G$1" x="106.68" y="-20.32" smashed="yes" rot="R90">
+<instance part="LSKIB2" gate="G$1" x="106.68" y="-20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.252" y="-16.764" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="111.252" y="-14.605" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7409,7 +7409,7 @@ Source: www.kingbright.com</description>
 <wire x1="66.04" y1="-66.04" x2="66.04" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LSKIB1" gate="G$1" pin="C"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="111.76" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="22.86" x2="116.84" y2="17.78" width="0.1524" layer="91"/>
@@ -7417,11 +7417,11 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="124.46" y1="30.48" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="C"/>
+<pinref part="GND" gate="A" pin="C"/>
 <wire x1="124.46" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LSKIB2" gate="G$1" pin="C"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="111.76" y1="-20.32" x2="116.84" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="-20.32" x2="116.84" y2="-25.4" width="0.1524" layer="91"/>
@@ -7499,21 +7499,21 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="27.94" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LSKIB1" gate="G$1" pin="A"/>
 <wire x1="101.6" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="OK1" gate="A" pin="A"/>
+<pinref part="GND" gate="A" pin="A"/>
 <wire x1="119.38" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <wire x1="147.32" y1="48.26" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="A" pin="COL"/>
+<pinref part="GND" gate="A" pin="COL"/>
 <wire x1="147.32" y1="43.18" x2="144.78" y2="43.18" width="0.1524" layer="91"/>
 <label x="147.32" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -7531,7 +7531,7 @@ Source: www.kingbright.com</description>
 </net>
 <net name="SINAL_SKIB1" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="EMIT"/>
+<pinref part="GND" gate="A" pin="EMIT"/>
 <wire x1="144.78" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="38.1" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
 <label x="147.32" y="30.48" size="1.778" layer="95"/>
@@ -7561,7 +7561,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="-15.24" x2="101.6" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LSKIB2" gate="G$1" pin="A"/>
 <wire x1="101.6" y1="-20.32" x2="104.14" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
