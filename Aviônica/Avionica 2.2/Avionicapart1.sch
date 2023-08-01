@@ -254,16 +254,6 @@
 <circle x="8.84" y="2.57" radius="1" width="0.127" layer="21"/>
 <text x="-3.66" y="-3.93" size="1.27" layer="21">MPU6050</text>
 </package>
-<package name="SWITCH_ALAVANCA_FOOTPRINT" library_version="31" library_locally_modified="yes">
-<wire x1="-6.477" y1="-6.35" x2="6.523" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="6.523" y1="-6.35" x2="6.523" y2="1.65" width="0.127" layer="21"/>
-<wire x1="6.523" y1="1.65" x2="-6.477" y2="1.65" width="0.127" layer="21"/>
-<wire x1="-6.477" y1="1.65" x2="-6.477" y2="-6.35" width="0.127" layer="21"/>
-<pad name="PIN1" x="-3.302" y="-2.54" drill="1.5" shape="long" rot="R90"/>
-<pad name="PIN2" x="-0.052" y="-2.54" drill="1.5" shape="long" rot="R90"/>
-<pad name="PIN3" x="3.198" y="-2.54" drill="1.5" shape="long" rot="R90"/>
-<text x="-4.699" y="2.032" size="0.8128" layer="21">SWITCH_ALAVANCA</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:package:40965099/3" type="box" library_version="31">
@@ -346,16 +336,6 @@
 <circle x="-15.24" y="5.08" radius="2.54" width="0.254" layer="94"/>
 <circle x="15.24" y="5.08" radius="2.54" width="0.254" layer="94"/>
 <text x="-3.81" y="6.858" size="1.27" layer="94">MPU6050</text>
-</symbol>
-<symbol name="SWITCH_ALAVANCA_SYMBOL" library_version="31" library_locally_modified="yes">
-<pin name="PIN1" x="-5.08" y="-10.16" length="middle" rot="R90"/>
-<pin name="PIN2" x="0" y="-10.16" length="middle" rot="R90"/>
-<pin name="PIN3" x="5.08" y="-10.16" length="middle" rot="R90"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<text x="-11.43" y="5.842" size="1.9304" layer="94">SWITCH_ALAVANCA</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -447,23 +427,6 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:39029071/7"/>
 </package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SWITCH_ALAVANCA" library_version="31" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="SWITCH_ALAVANCA_SYMBOL" x="38.1" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="SWITCH_ALAVANCA_FOOTPRINT">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="PIN1"/>
-<connect gate="G$1" pin="PIN2" pad="PIN2"/>
-<connect gate="G$1" pin="PIN3" pad="PIN3"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1868,16 +1831,15 @@ part number 2062-2P from STA</description>
 <part name="U$11" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="SWITCH_3PIN" device="" package3d_urn="urn:adsk.eagle:package:39192263/6"/>
 <part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP280" device="V1" package3d_urn="urn:adsk.eagle:package:39029072/5"/>
 <part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MPU6050" device="V1" package3d_urn="urn:adsk.eagle:package:39029071/7"/>
-<part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="SWITCH_ALAVANCA" device=""/>
-<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="ESP32-DEVKIT-V1" deviceset="ESP32-DEVKIT-V1" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="MICRO-SD" device="-PUSH-PUSH-EXT-PIN"/>
 <part name="GPS-TX-RX" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="GPS-G-V" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
-<part name="3.3-BUZ" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="EN-3.3V" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="SKIB2-SKIB1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="GND-BAT" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="3.3-BUZ1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 </parts>
 <sheets>
 <sheet>
@@ -1911,10 +1873,6 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <instance part="U$11" gate="G$1" x="191.008" y="91.694" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="48.26" y="68.58" smashed="yes"/>
 <instance part="U$6" gate="G$1" x="-7.62" y="66.04" smashed="yes"/>
-<instance part="U$5" gate="G$1" x="180.34" y="40.64" smashed="yes"/>
-<instance part="GND10" gate="1" x="175.37905625" y="14.991934375" smashed="yes">
-<attribute name="VALUE" x="172.83905625" y="12.451934375" size="1.778" layer="96"/>
-</instance>
 <instance part="U1" gate="G$1" x="-25.4" y="-53.34" smashed="yes">
 <attribute name="VALUE" x="-35.56" y="-83.82" size="1.778" layer="96"/>
 <attribute name="NAME" x="-35.56" y="-22.86" size="1.778" layer="95" align="top-left"/>
@@ -1934,7 +1892,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <attribute name="VALUE" x="-65.786" y="99.06" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="-55.372" y="99.06" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="3.3-BUZ" gate="G$1" x="167.64" y="-10.16" smashed="yes" rot="R270">
+<instance part="EN-3.3V" gate="G$1" x="167.64" y="-10.16" smashed="yes" rot="R270">
 <attribute name="VALUE" x="162.814" y="-7.62" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="173.228" y="-7.62" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
@@ -1945,6 +1903,10 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <instance part="GND-BAT" gate="G$1" x="167.64" y="93.98" smashed="yes" rot="R270">
 <attribute name="VALUE" x="162.814" y="96.52" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="173.228" y="96.52" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="3.3-BUZ1" gate="G$1" x="185.42" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="190.246" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="179.832" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -1973,12 +1935,6 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="40.64" y1="53.34" x2="40.75905625" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="40.75905625" y1="53.34" x2="40.75905625" y2="37.851934375" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$5" gate="G$1" pin="PIN1"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="175.26" y1="30.48" x2="175.37905625" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="175.37905625" y1="27.94" x2="175.37905625" y2="17.531934375" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -2084,11 +2040,6 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <wire x1="35.56" y1="38.1" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="PIN3"/>
-<wire x1="185.42" y1="30.48" x2="185.42" y2="15.24" width="0.1524" layer="91"/>
-<label x="185.42" y="12.7" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="3V3"/>
 <wire x1="-10.16" y1="-27.94" x2="-2.54" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-2.54" y="-27.94" size="1.778" layer="95" xref="yes"/>
@@ -2104,9 +2055,14 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <label x="-58.42" y="81.28" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="3.3-BUZ" gate="G$1" pin="1"/>
+<pinref part="EN-3.3V" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="-17.78" x2="167.64" y2="-22.86" width="0.1524" layer="91"/>
 <label x="167.64" y="-22.86" size="1.4224" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="3.3-BUZ1" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="10.16" x2="182.88" y2="15.24" width="0.1524" layer="91"/>
+<label x="180.34" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -2194,7 +2150,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <label x="-45.72" y="-63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="3.3-BUZ" gate="G$1" pin="2"/>
+<pinref part="EN-3.3V" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="-17.78" x2="170.18" y2="-22.86" width="0.1524" layer="91"/>
 <label x="170.18" y="-22.86" size="1.4224" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -2219,14 +2175,14 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </net>
 <net name="ENABLE_SIGNAL" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="PIN2"/>
-<wire x1="180.34" y1="30.48" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
-<label x="180.34" y="5.08" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="D27"/>
 <wire x1="-10.16" y1="-60.96" x2="-5.08" y2="-60.96" width="0.1524" layer="91"/>
 <label x="-5.08" y="-60.96" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="185.42" y1="15.24" x2="185.42" y2="10.16" width="0.1524" layer="91"/>
+<label x="185.42" y="12.7" size="1.778" layer="95" rot="R90"/>
+<pinref part="3.3-BUZ1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RX1_ESP" class="0">
@@ -2236,9 +2192,9 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <label x="-45.72" y="-66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="GPS-TX-RX" gate="G$1" pin="1"/>
-<wire x1="-50.8" y1="88.9" x2="-50.8" y2="81.28" width="0.1524" layer="91"/>
-<label x="-50.8" y="81.28" size="1.4224" layer="95" rot="R270" xref="yes"/>
+<pinref part="GPS-TX-RX" gate="G$1" pin="2"/>
+<wire x1="-48.26" y1="88.9" x2="-48.26" y2="81.28" width="0.1524" layer="91"/>
+<label x="-48.26" y="81.28" size="1.4224" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="TX1_ESP" class="0">
@@ -2248,9 +2204,9 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <label x="-45.72" y="-53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="GPS-TX-RX" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="88.9" x2="-48.26" y2="81.28" width="0.1524" layer="91"/>
-<label x="-48.26" y="81.28" size="1.4224" layer="95" rot="R270" xref="yes"/>
+<pinref part="GPS-TX-RX" gate="G$1" pin="1"/>
+<wire x1="-50.8" y1="88.9" x2="-50.8" y2="81.28" width="0.1524" layer="91"/>
+<label x="-50.8" y="81.28" size="1.4224" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M0" class="0">
