@@ -18637,7 +18637,6 @@ design rules under a new name.</description>
 <signals>
 <signal name="GND">
 <contactref element="U$3" pad="GND"/>
-<contactref element="GND-3.3V" pad="P2"/>
 <polygon width="0.3048" layer="16">
 <vertex x="0.1" y="54.09"/>
 <vertex x="0.1" y="-0.31"/>
@@ -18651,18 +18650,19 @@ design rules under a new name.</description>
 <vertex x="50.41" y="54.14"/>
 </polygon>
 <contactref element="U$1" pad="PIN1"/>
-<wire x1="19.258" y1="12.46" x2="43.738" y2="39.3004" width="0" layer="19" extent="1-1"/>
-<wire x1="36.109" y1="29.222" x2="19.258" y2="12.46" width="0" layer="19" extent="1-1"/>
+<contactref element="GND-3.3V" pad="P1"/>
+<wire x1="36.109" y1="29.222" x2="43.738" y2="41.8404" width="0" layer="19" extent="1-1"/>
+<wire x1="19.258" y1="12.46" x2="36.109" y2="29.222" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_3V3">
 <contactref element="U$3" pad="VCC"/>
-<contactref element="GND-3.3V" pad="P1"/>
 <contactref element="U$1" pad="PIN3"/>
 <contactref element="EN-3.3V" pad="P1"/>
 <wire x1="43.86" y1="12.83" x2="26.128" y2="12.83" width="1.27" layer="16"/>
 <wire x1="26.128" y1="12.83" x2="25.758" y2="12.46" width="1.27" layer="16"/>
-<wire x1="43.86" y1="12.83" x2="43.738" y2="41.8404" width="0" layer="19" extent="1-1"/>
-<wire x1="36.109" y1="36.842" x2="25.758" y2="12.46" width="0" layer="19" extent="1-1"/>
+<contactref element="GND-3.3V" pad="P2"/>
+<wire x1="36.109" y1="36.842" x2="43.738" y2="39.3004" width="0" layer="19" extent="1-1"/>
+<wire x1="43.86" y1="12.83" x2="36.109" y2="36.842" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX1_ESP">
 <contactref element="U$3" pad="TX"/>

@@ -1840,6 +1840,8 @@ part number 2062-2P from STA</description>
 <part name="SKIB2-SKIB1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="GND-BAT" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="3.3-BUZ1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="GND" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="SK1-SK2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 </parts>
 <sheets>
 <sheet>
@@ -1884,21 +1886,21 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <attribute name="NAME" x="88.9" y="-50.292" size="1.778" layer="95"/>
 <attribute name="VALUE" x="88.9" y="-78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="GPS-TX-RX" gate="G$1" x="-50.8" y="96.52" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-55.626" y="99.06" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="-45.212" y="99.06" size="1.778" layer="95" font="vector" rot="R270"/>
+<instance part="GPS-TX-RX" gate="G$1" x="165.1" y="-15.24" smashed="yes" rot="R270">
+<attribute name="VALUE" x="160.274" y="-12.7" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="170.688" y="-12.7" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="GPS-G-V" gate="G$1" x="-60.96" y="96.52" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-65.786" y="99.06" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="-55.372" y="99.06" size="1.778" layer="95" font="vector" rot="R270"/>
+<instance part="GPS-G-V" gate="G$1" x="154.94" y="-15.24" smashed="yes" rot="R270">
+<attribute name="VALUE" x="150.114" y="-12.7" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="160.528" y="-12.7" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="EN-3.3V" gate="G$1" x="167.64" y="-10.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="162.814" y="-7.62" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="173.228" y="-7.62" size="1.778" layer="95" font="vector" rot="R270"/>
+<instance part="EN-3.3V" gate="G$1" x="157.48" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="162.306" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="151.892" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="SKIB2-SKIB1" gate="G$1" x="154.94" y="-10.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="150.114" y="-7.62" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="160.528" y="-7.62" size="1.778" layer="95" font="vector" rot="R270"/>
+<instance part="SKIB2-SKIB1" gate="G$1" x="170.18" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="175.006" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="164.592" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 <instance part="GND-BAT" gate="G$1" x="167.64" y="93.98" smashed="yes" rot="R270">
 <attribute name="VALUE" x="162.814" y="96.52" size="1.778" layer="96" font="vector" rot="R270"/>
@@ -1907,6 +1909,14 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <instance part="3.3-BUZ1" gate="G$1" x="185.42" y="2.54" smashed="yes" rot="R90">
 <attribute name="VALUE" x="190.246" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="179.832" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="GND" gate="G$1" x="200.66" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="205.486" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="195.072" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
+<instance part="SK1-SK2" gate="G$1" x="210.82" y="2.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="215.646" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="NAME" x="205.232" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -1949,8 +1959,16 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </segment>
 <segment>
 <pinref part="GPS-G-V" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="88.9" x2="-60.96" y2="81.28" width="0.1524" layer="91"/>
-<label x="-60.96" y="81.28" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="154.94" y1="-22.86" x2="154.94" y2="-30.48" width="0.1524" layer="91"/>
+<label x="154.94" y="-30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GND" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="10.16" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="15.24" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="15.24" x2="200.66" y2="10.16" width="0.1524" layer="91"/>
+<label x="198.12" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="V_IN" class="0">
@@ -2051,13 +2069,13 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </segment>
 <segment>
 <pinref part="GPS-G-V" gate="G$1" pin="2"/>
-<wire x1="-58.42" y1="88.9" x2="-58.42" y2="81.28" width="0.1524" layer="91"/>
-<label x="-58.42" y="81.28" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="157.48" y1="-22.86" x2="157.48" y2="-30.48" width="0.1524" layer="91"/>
+<label x="157.48" y="-30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="EN-3.3V" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="-17.78" x2="167.64" y2="-22.86" width="0.1524" layer="91"/>
-<label x="167.64" y="-22.86" size="1.4224" layer="95" rot="R270" xref="yes"/>
+<wire x1="157.48" y1="10.16" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
+<label x="157.48" y="15.24" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="3.3-BUZ1" gate="G$1" pin="2"/>
@@ -2127,8 +2145,8 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </segment>
 <segment>
 <pinref part="SKIB2-SKIB1" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="-17.78" x2="157.48" y2="-22.86" width="0.1524" layer="91"/>
-<label x="157.48" y="-22.86" size="1.4224" layer="95" rot="R270" xref="yes"/>
+<wire x1="167.64" y1="10.16" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
+<label x="167.64" y="15.24" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SKIB2" class="0">
@@ -2139,8 +2157,8 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </segment>
 <segment>
 <pinref part="SKIB2-SKIB1" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="-17.78" x2="154.94" y2="-22.86" width="0.1524" layer="91"/>
-<label x="154.94" y="-22.86" size="1.4224" layer="95" rot="R270" xref="yes"/>
+<wire x1="170.18" y1="10.16" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
+<label x="170.18" y="15.24" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="BUZZER" class="0">
@@ -2151,8 +2169,8 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </segment>
 <segment>
 <pinref part="EN-3.3V" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="-17.78" x2="170.18" y2="-22.86" width="0.1524" layer="91"/>
-<label x="170.18" y="-22.86" size="1.4224" layer="95" rot="R270" xref="yes"/>
+<wire x1="154.94" y1="10.16" x2="154.94" y2="15.24" width="0.1524" layer="91"/>
+<label x="154.94" y="15.24" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2193,8 +2211,8 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </segment>
 <segment>
 <pinref part="GPS-TX-RX" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="88.9" x2="-48.26" y2="81.28" width="0.1524" layer="91"/>
-<label x="-48.26" y="81.28" size="1.4224" layer="95" rot="R270" xref="yes"/>
+<wire x1="167.64" y1="-22.86" x2="167.64" y2="-30.48" width="0.1524" layer="91"/>
+<label x="167.64" y="-30.48" size="1.4224" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="TX1_ESP" class="0">
@@ -2205,8 +2223,8 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </segment>
 <segment>
 <pinref part="GPS-TX-RX" gate="G$1" pin="1"/>
-<wire x1="-50.8" y1="88.9" x2="-50.8" y2="81.28" width="0.1524" layer="91"/>
-<label x="-50.8" y="81.28" size="1.4224" layer="95" rot="R270" xref="yes"/>
+<wire x1="165.1" y1="-22.86" x2="165.1" y2="-30.48" width="0.1524" layer="91"/>
+<label x="165.1" y="-30.48" size="1.4224" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="M0" class="0">
@@ -2231,6 +2249,30 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <pinref part="U1" gate="G$1" pin="D34"/>
 <wire x1="-10.16" y1="-71.12" x2="-5.08" y2="-71.12" width="0.1524" layer="91"/>
 <label x="-5.08" y="-71.12" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SK2" class="0">
+<segment>
+<pinref part="SK1-SK2" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="10.16" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
+<label x="208.28" y="12.7" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D26"/>
+<wire x1="-10.16" y1="-58.42" x2="-5.08" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-7.62" y="-58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SK1" class="0">
+<segment>
+<pinref part="SK1-SK2" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="10.16" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
+<label x="213.36" y="12.7" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D25"/>
+<wire x1="-10.16" y1="-55.88" x2="-5.08" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-7.62" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
