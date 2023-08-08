@@ -1841,7 +1841,7 @@ part number 2062-2P from STA</description>
 <part name="GND-BAT" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="3.3-BUZ1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="GND" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
-<part name="3.3-BUZ3" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="SK1-SK2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 </parts>
 <sheets>
 <sheet>
@@ -1914,7 +1914,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <attribute name="VALUE" x="205.486" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="195.072" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="3.3-BUZ3" gate="G$1" x="210.82" y="2.54" smashed="yes" rot="R90">
+<instance part="SK1-SK2" gate="G$1" x="210.82" y="2.54" smashed="yes" rot="R90">
 <attribute name="VALUE" x="215.646" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="205.232" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
@@ -2253,7 +2253,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </net>
 <net name="SK2" class="0">
 <segment>
-<pinref part="3.3-BUZ3" gate="G$1" pin="2"/>
+<pinref part="SK1-SK2" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="10.16" x2="208.28" y2="15.24" width="0.1524" layer="91"/>
 <label x="208.28" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -2265,7 +2265,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </net>
 <net name="SK1" class="0">
 <segment>
-<pinref part="3.3-BUZ3" gate="G$1" pin="1"/>
+<pinref part="SK1-SK2" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="10.16" x2="210.82" y2="15.24" width="0.1524" layer="91"/>
 <label x="213.36" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>

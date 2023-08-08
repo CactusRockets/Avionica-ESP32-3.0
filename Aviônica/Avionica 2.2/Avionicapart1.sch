@@ -1836,10 +1836,10 @@ part number 2062-2P from STA</description>
 <part name="J1" library="SparkFun-Connectors" deviceset="MICRO-SD" device="-PUSH-PUSH-EXT-PIN"/>
 <part name="GPS-TX-RX" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="GPS-G-V" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
-<part name="EN-3.3V" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="3.3V-BUZ" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="SKIB2-SKIB1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="GND-BAT" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
-<part name="3.3-BUZ1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="EN-3.3V" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="GND" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="SK1-SK2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 </parts>
@@ -1894,7 +1894,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <attribute name="VALUE" x="150.114" y="-12.7" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="160.528" y="-12.7" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="EN-3.3V" gate="G$1" x="157.48" y="2.54" smashed="yes" rot="R90">
+<instance part="3.3V-BUZ" gate="G$1" x="157.48" y="2.54" smashed="yes" rot="R90">
 <attribute name="VALUE" x="162.306" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="151.892" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
@@ -1906,7 +1906,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <attribute name="VALUE" x="162.814" y="96.52" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="173.228" y="96.52" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="3.3-BUZ1" gate="G$1" x="185.42" y="2.54" smashed="yes" rot="R90">
+<instance part="EN-3.3V" gate="G$1" x="185.42" y="2.54" smashed="yes" rot="R90">
 <attribute name="VALUE" x="190.246" y="0" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="179.832" y="0" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
@@ -2073,12 +2073,12 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <label x="157.48" y="-30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EN-3.3V" gate="G$1" pin="1"/>
+<pinref part="3.3V-BUZ" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="10.16" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
 <label x="157.48" y="15.24" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="3.3-BUZ1" gate="G$1" pin="2"/>
+<pinref part="EN-3.3V" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="10.16" x2="182.88" y2="15.24" width="0.1524" layer="91"/>
 <label x="180.34" y="12.7" size="1.778" layer="95" rot="R90"/>
 </segment>
@@ -2168,7 +2168,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <label x="-45.72" y="-63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="EN-3.3V" gate="G$1" pin="2"/>
+<pinref part="3.3V-BUZ" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="10.16" x2="154.94" y2="15.24" width="0.1524" layer="91"/>
 <label x="154.94" y="15.24" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -2200,7 +2200,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <segment>
 <wire x1="185.42" y1="15.24" x2="185.42" y2="10.16" width="0.1524" layer="91"/>
 <label x="185.42" y="12.7" size="1.778" layer="95" rot="R90"/>
-<pinref part="3.3-BUZ1" gate="G$1" pin="1"/>
+<pinref part="EN-3.3V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RX1_ESP" class="0">
