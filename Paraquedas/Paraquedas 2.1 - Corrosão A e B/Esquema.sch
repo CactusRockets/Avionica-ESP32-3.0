@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8654,6 +8654,15 @@ part number 2062-2P from STA</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-10.2052,60.96,BATERIA,,,,,"/>
+<approved hash="113,1,47.045,83.82,SKIB1,,,,,"/>
+<approved hash="113,1,47.045,27.94,SKIB2,,,,,"/>
+<approved hash="113,1,173.397,20.4521,S1-S2,,,,,"/>
+<approved hash="113,1,9.48267,35.6921,SK1-SK2,,,,,"/>
+<approved hash="113,1,24.7227,-58.5521,3.3-BUZ,,,,,"/>
+<approved hash="113,1,155.617,89.0321,GND,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
