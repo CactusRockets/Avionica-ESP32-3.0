@@ -751,7 +751,7 @@
 <sheets>
 <sheet>
 <plain>
-<text x="154.94" y="91.44" size="1.778" layer="91">-&gt; Passar por um elevador de tensão 5.0V -&gt;</text>
+<text x="132.08" y="93.98" size="1.778" layer="91">-&gt; Passar por um elevador de tensão 5.0V -&gt;</text>
 <text x="60.96" y="2.54" size="1.778" layer="91"># Observações:
 LoRa: Supports 3.3V~5.5V power supply, 
 power supply over 5V can guarantee the best performance.</text>
@@ -800,7 +800,7 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <instance part="U$8" gate="G$1" x="170.18" y="-12.7" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="190.5" y="-12.7" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="221.488" y="91.694" smashed="yes"/>
-<instance part="U$12" gate="G$1" x="144.78" y="91.44" smashed="yes"/>
+<instance part="U$12" gate="G$1" x="198.12" y="91.44" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="48.26" y="68.58" smashed="yes"/>
 <instance part="U$6" gate="G$1" x="-7.62" y="66.04" smashed="yes"/>
 <instance part="U$5" gate="G$1" x="180.34" y="40.64" smashed="yes"/>
@@ -856,8 +856,8 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="81.28" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
-<label x="147.32" y="73.66" size="1.778" layer="95" rot="R90"/>
+<wire x1="200.66" y1="81.28" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
+<label x="200.66" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="GND"/>
@@ -1089,8 +1089,8 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 <net name="V_BATTERY" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="81.28" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="142.24" y="66.04" size="1.778" layer="95" rot="R90"/>
+<wire x1="195.58" y1="81.28" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
+<label x="195.58" y="66.04" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="2"/>

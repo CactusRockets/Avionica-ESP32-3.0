@@ -1122,26 +1122,26 @@ ESPRESSIF, considera também que a alimentação possa ser através do pino 3V3.
 </net>
 <net name="M0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO34"/>
-<wire x1="-48.26" y1="-35.56" x2="-53.34" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-53.34" y="-35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="M0"/>
 <wire x1="76.2" y1="-12.7" x2="68.46094375" y2="-12.7" width="0.1524" layer="91"/>
 <label x="66.04" y="-12.7" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="M1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="IO35"/>
 <wire x1="-48.26" y1="-38.1" x2="-53.34" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-53.34" y="-38.1" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="M1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="M1"/>
 <wire x1="76.2" y1="-15.24" x2="68.58" y2="-15.24" width="0.1524" layer="91"/>
 <label x="66.04" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="IO34"/>
+<wire x1="-48.26" y1="-35.56" x2="-53.34" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-53.34" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
